@@ -10,6 +10,6 @@ public class MathController {
 
 	@PostMapping("/add")
 	public int addition(int a,int b) {
-		return a+b;
+		return (a+b);
 	}
 }
