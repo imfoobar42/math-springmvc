@@ -29,7 +29,7 @@ public class MathApplicationTests {
 
 	@Test
 	public void testAdditionOfTwoNegativeIntegers() {	
-		assertEquals(-30, mcontroller.addition(-10, -20));
+		assertEquals(-50, mcontroller.addition(-10, -20));
 	}
 	@Test
 	public void testAdditionOfOnePositiveOneNegativeIntegers() {	
